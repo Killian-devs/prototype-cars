@@ -1,6 +1,5 @@
 <h1>Protype-cars</h1>
-<h2>Sejam bem-vindos ao meu primeiro portifólio a ser apresentado!</h2>
-<p>Neste portifólio será como base pra todo conhecimento que for adiquirir durante a minha jornada. A cada passo, estarei utilizando este portifólio e adicionando mais e mais versões que me identificará meus progressos.</p>
-<p>Há muito do que aprender ainda, mas espero do fundo do coração que tudo der certo. 😁</p>
+<h2>Atualização V0.0.1</h2>
+<p>Aos primeiros passos, foi aprender e desenvolver um tipo de layout da página, usufruindo funções básicas que todo Website tem em comum, logo a seguir serão para implementar e formatar todo esse layout.</p>
 
 <p>Nós se vemos na próxima! 😎</p>
