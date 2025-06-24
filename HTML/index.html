@@ -5,31 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="/CSS/style.css">
-    <title>Document</title>
+    <title>Prototype Cars</title>
 </head>
 <body>
     <header>
+        <!-- Logo -->
         <a id="logo" href="/HTML/index.html">
             <img src="/img/logo.png" alt="logo" width="100">
         </a>
+        <!-- Título e slogan -->
         <div class="title">
             <div><h1 class="nameLogo">Prototype Cars</h1></div>
             <div><p class="slogan">Criando o carro dos seus sonhos.</p></div>
         </div>
+        <!-- Menu mobile -->
         <button id="openMenu">&#9776;</button>
-        <nav id="menu">
+        <!-- Menu de navegação -->
+        <nav id="menu" role="navigation" aria-label="Menu de navegação">
             <a href="/HTML/index.html" class="nav-btn">Home</a>
             <a href="/HTML/products.html" class="nav-btn">Produtos</a>
             <a href="/HTML/about.html" class="nav-btn">Sobre</a>
             <a href="/HTML/contact.html" class="nav-btn">Contato</a>
         </nav>
+        <!-- Botão de fechar o menu -->
         <button id="closeMenu">X</button>
     </header>
     <main>
-        <h1 class="principal">Principal home</h1>
-            <div class="teste"><p>Bem-vindo ao nosso site! Aqui você encontrará uma variedade de produtos e serviços que oferecemos. Navegue pelo menu para saber mais.</p></div>
+        <!-- Seção principal com carrossel -->
+        <section class="hero-container">
+            <h1 class="hero">Explore nossos carros inovadores e descubra o futuro da mobilidade.</h1>
+            
+            <div class="container-slider">
+                <!-- Botão anterior -->
+                <button id="prev-button"><img src="/img/Arrow.png" alt="prev-button"></button>
+                <!-- Carrossel de imagens -->
+                <div class="container-images">
+                    <img src="/img/carros/Imagem1.jpg" alt="Carro 1" class="slider on">
+                    <img src="/img/carros/Imagem2.jpg" alt="Carro 2" class="slider">
+                    <img src="/img/carros/Imagem3.jpg" alt="Carro 3" class="slider">
+                    <img src="/img/carros/Imagem4.jpg" alt="Carro 4" class="slider">
+                    <img src="/img/carros/Imagem5.jpg" alt="Carro 5" class="slider">
+                    <img src="/img/carros/Imagem6.jpg" alt="Carro 6" class="slider">
+                    <img src="/img/carros/Imagem7.jpg" alt="Carro 7" class="slider">
+                </div>
+                <!-- Botão próximo -->
+                <button id="next-button"><img src="/img/Arrow.png" alt="next-button"></button>
+            </div>
+        </section>
     </main>
-    <footer>Rodapé</footer>
-    <script type="text/javascript" src="/JS/script.js"></script>
+    <footer>
+        <p>&copy; 2025 Prototype Cars. Todos os direitos reservados.</p>
+    </footer>
+    <script type="text/javascript" src="/JS/script.js" defer></script>
 </body>
 </html>
